@@ -1,0 +1,56 @@
+.heroSection{
+    max-width: 1400px;
+    margin: 50px auto;
+}
+
+.introSection{
+    display: flex;
+    /*max-width: 1200px;*/
+    justify-content: space-between;
+    /*margin: 50px auto 0;*/
+}
+
+.intro-text{
+    max-width: 500px;
+}
+.heroImage{
+    width: 445px;
+}
+.stack-section{
+    display: flex;
+    justify-content: space-around;
+    /*max-width: 1200px;*/
+    /*margin: 50px auto;*/
+    flex-wrap: wrap;
+}
+.stackList{
+    width: 400px;
+}
+/*.project-Section{*/
+/*    max-width: 1200px;*/
+/*    margin: 50px auto;*/
+/*}*/
+.project-subtitle{
+    display: flex;
+    justify-content: space-between;
+}
+.projectList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*margin: 50px auto;*/
+}
+/*.project-item{*/
+/*    !*display: flex;*!*/
+/*    !*width: 40%;*!*/
+/*}*/
+.projectImage{
+    width: 650px;
+}
+.contact-Section{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-subtitle{
+    max-width: 550px;
+}

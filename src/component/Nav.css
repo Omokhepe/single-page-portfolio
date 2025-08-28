@@ -1,0 +1,31 @@
+.nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    justify-content: space-around;
+    /*color: var(--colorNeutral900);*/
+    align-items: center;
+    height: 70px;
+    padding-top: 20px;
+    transition: all .50s ease;
+}
+.navTitle{
+    text-decoration: none;
+    color: var(--colorGrey);
+}
+.navLabel{
+    display: flex;
+    list-style-type: none;
+    li{
+        text-decoration: none;
+        /*color: var(--colorNeutral900);*/
+        margin-right: 48px;
+    }
+}
+.navLink.active{
+    /*color: var(--colorOrange500);*/
+}
+.nav-btn:hover{
+    transform: scale(1.1);
+}

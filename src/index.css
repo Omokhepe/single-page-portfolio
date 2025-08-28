@@ -1,0 +1,112 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #151515;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+    --colorBlack: #151515;
+    --colorGreen: #4EE1A0;
+    --colorAsh: #242424;
+    --colorGrey: #d9d9d9;
+    --colorWhite: #FFFFFF;
+    --primary: #11998e;
+    --secondary: #38ef7d;
+    --white: #fff;
+    --gray: #9b9b9b;
+
+}
+
+/*a {*/
+/*  font-weight: 500;*/
+/*  color: #646cff;*/
+/*  text-decoration: inherit;*/
+/*}*/
+/*a:hover {*/
+/*  color: #535bf2;*/
+/*}*/
+*{ box-sizing: border-box; }
+html,body{ height: 100%; }
+body {
+    margin: 0;
+    width: 100%;
+}
+
+@font-face {
+    font-family: "SpaceGroteskXL";
+    src: url('assets/fonts/static/SpaceGrotesk-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    /*font-size: 88px;*/
+}@font-face {
+    font-family: "SpaceGroteskMed";
+    src: url('assets/fonts/static/SpaceGrotesk-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    /*font-size: 18px;*/
+}
+
+.textPresetXL{
+    font-family: "SpaceGroteskXL", sans-serif;
+    font-size: 88px;
+    /*margin: 0;*/
+}.textPresetL{
+    font-family: "SpaceGroteskXL", sans-serif;
+    font-size: 48px;
+    /*margin: 0;*/
+}.textPresetBold{
+    font-family: "SpaceGroteskXL", sans-serif;
+    font-size: 24px;
+    /*margin: 0;*/
+}.textPreset1Med{
+    font-family: "SpaceGroteskMed", sans-serif;
+    font-size: 18px;
+    /*margin: 0;*/
+}
+
+
+
+
+/*h1 {*/
+/*  font-size: 3.2em;*/
+/*  line-height: 1.1;*/
+/*}*/
+
+/*button {*/
+/*  border-radius: 8px;*/
+/*  border: 1px solid transparent;*/
+/*  padding: 0.6em 1.2em;*/
+/*  font-size: 1em;*/
+/*  font-weight: 500;*/
+/*  font-family: inherit;*/
+/*  background-color: #1a1a1a;*/
+/*  cursor: pointer;*/
+/*  transition: border-color 0.25s;*/
+/*}*/
+/*button:hover {*/
+/*  border-color: #646cff;*/
+/*}*/
+/*button:focus,*/
+/*button:focus-visible {*/
+/*  outline: 4px auto -webkit-focus-ring-color;*/
+/*}*/
+
+/*@media (prefers-color-scheme: light) {*/
+/*  :root {*/
+/*    color: #213547;*/
+/*    background-color: #ffffff;*/
+/*  }*/
+/*  a:hover {*/
+/*    color: #747bff;*/
+/*  }*/
+/*  button {*/
+/*    background-color: #f9f9f9;*/
+/*  }*/
+/*}*/
