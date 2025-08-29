@@ -85,7 +85,7 @@ function ContactForm() {
                 style={{display: "none"}}
             />
 
-            <button type="submit" className="button-86" role="button">Send Message</button>
+			{/*<button type="submit" className="button-86" role="button">Send Message</button>*/}
             {/*<button type="submit" className="form-button">*/}
             {/*    Send*/}
             {/*</button>*/}
